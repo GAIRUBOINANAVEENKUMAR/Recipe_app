@@ -51,6 +51,8 @@
     border-radius: 30px;
     transition: all 0.4s ease;
     box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.365);
+    width: 90%;
+    max-width: 600px;
   }
   
   #search-bar:focus {
@@ -336,4 +338,54 @@
     padding: 1.5rem 0;
     font-size: 0.9rem;
   }
+
+  @media (max-width: 768px) {
+  #header {
+    padding: 1rem;
+  }
+
+  #search-bar {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  #featured-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #featured-image,
+  #featured-info {
+    width: 100%;
+  }
+
+  .recipe-card {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  #app-title {
+    font-size: 1.5rem;
+  }
+
+  #search-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  #view-featured-btn, .fav-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
   

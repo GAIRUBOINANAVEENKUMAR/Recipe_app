@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Legendary Recipe App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div id="app-container">
+    <header id="header">
+      <h1 id="app-title">🍽️ Bhaamma Gaari Recipe</h1>
+      <input type="text" id="search-bar" placeholder="Search your favorite recipe..."/>
+      <button id="search-btn">Search</button>
+    </header>
+    <main id="main-content">
+      <section id="featured-recipe">
+        <div id="featured-card">
+          <img id="featured-image" src="" alt="Featured Recipe"/>
+          <div id="featured-info">
+            <h3 id="featured-name">Recipe Name</h3>
+            <p id="featured-description">Short description of the featured recipe...</p>
+            <ul id="featured-ingredients"></ul>
+            <div class="actions">
+              <button id="view-featured-btn">View Full Recipe</button>
+              <button id="fav-featured-btn" class="fav-btn"><i class="fas fa-heart"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="recipe-list">
+        <h2 id="all-recipes-title">All Recipes</h2>
+        <div id="recipes-grid"></div>
+      </section>
+
+      <!-- favourite Items -->
+      <section id="favorite-section">
+        <h2 >❤️My Favorite Recipes</h2>
+        <div id="favorites-grid"></div>
+      </section>
+
+      <video autoplay muted loop id="background-video">
+        <source src="./videos/2620043-uhd_3840_2160_25fps.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

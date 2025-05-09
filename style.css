@@ -351,16 +351,41 @@
 
   #featured-card {
     flex-direction: column;
-    height: auto;
+    height: 1000px;
   }
 
   #featured-image,
   #featured-info {
     width: 100%;
   }
+   
 
   .recipe-card {
+    
     height: auto;
+  }
+  #view-featured-btn {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+  }
+  #all-recipes-title{
+    margin-top: 650px;
+    margin-bottom: 20px;
+    font-family: "italiana";
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #00000045;
+    font-size: 40px;
+    text-align: center;
+  }
+  #all-favourite-title{
+     margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: "italiana";
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #00000045;
+    font-size: 30px;
+    text-align: center;
   }
 }
 
@@ -381,7 +406,31 @@
   #view-featured-btn, .fav-btn {
     width: 100%;
     margin-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
   }
+  .recipe-card {
+    height: auto;
+  }
+  #all-recipes-title{
+    margin-top: 400px;
+    margin-bottom: 20px;
+    font-family: "italiana";
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #00000045;
+    font-size: 40px;
+    text-align: center;
+  }
+  #all-favourite-title{
+     margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: "italiana";
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #00000045;
+    font-size: 30px;
+    text-align: center;
+  }
+ 
 }
 img, video {
   max-width: 100%;
